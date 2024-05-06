@@ -1,3 +1,4 @@
+import RiceLogo from'../../assets/img/logo.svg'
 function Header() {
 
     return(
@@ -7,24 +8,21 @@ function Header() {
         >
           <div className="flex items-center">
             <img
-              src="./assets/img/logo.png"
+              src={RiceLogo}
               alt="logo-da-rice-swap"
               className="w-20 mr-7"
             />
   
             <nav className="">
-              <a
-                href="#"
-                className="text-white hover:bg-zinc-900 px-2 py-2 rounded-lg duration-500"
-                >Explore</a
-              >
+            <a href="#" className="font-medium shadow-md shadow-black text-white  bg-gray-700 px-3 py-1 rounded-md mr-3 " //futuramente adicionar animações de HOVER,ETC.
+              >Explore</a>
              
               
             </nav>
           </div>
   
           <div className="flex items-center">
-            <a href="#" className="font-medium bg-white px-3 py-1 rounded-xl mr-3"
+            <a href="#" className="font-medium shadow-md shadow-black text-white  bg-gray-700 px-3 py-1 rounded-md mr-3 hover:scale-105 duration-200" //futuramente adicionar animações de HOVER,ETC.
               >Enter App</a
             >
           </div>
