@@ -22,8 +22,8 @@ function Header() {
           </div>
   
           <div className="flex items-center">
-            <a href="#" className="font-medium shadow-md shadow-black text-white  bg-gray-700 px-3 py-1 rounded-md mr-3 hover:scale-105 duration-200" //futuramente adicionar animações de HOVER,ETC.
-              >Enter App</a
+            <a href="#" className="font-medium shadow-md shadow-black text-white  bg-gray-700 px-3 py-1 rounded-md mr-3  " //futuramente adicionar animações de HOVER,ETC.
+              >Enter <span className=' max-md:hidden'>App</span></a
             >
           </div>
         </div>
