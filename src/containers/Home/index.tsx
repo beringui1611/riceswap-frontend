@@ -1,11 +1,10 @@
 import Header from "../../components/header"
-
 function Home() {
 
     return(
-        <div className="w-full bg-blue-950 h-20 ">
+        <div className="bg-blue-950 h-screen">
             <Header/>
-            <main  className='bg-blue-950 -400 flex justify-center items-top h-screen max-w-full'>
+            <main className='bg-blue-950 flex justify-center items-top  max-w-full'>
                 <section>
                     <div className="mx-5">
                         <h1 className=" font-bold text-3xl  text-white max-md:text-2xl p-3 mx-5 max-md:mt-12 md: md:text-5xl sm:text-4xl md:my-16"> Lorem ipsum dolor sit amet <span className="text-blue-500">consectetur</span>!</h1>
