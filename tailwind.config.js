@@ -7,7 +7,15 @@ module.exports = {
     extend: {
       fontFamily: {
         "sans": ["Montserrat"]
+      },
+      colors: {
+        primaryBg: '#101B40',
+        
+      },
+      backgroundImage:{
+        'sushiSnow': 'url(/src/assets/img/snowSushi.svg)'
       }
+        
     },
   },
   plugins: [],

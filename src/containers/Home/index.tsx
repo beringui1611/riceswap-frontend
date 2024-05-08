@@ -1,10 +1,12 @@
 import Header from "../../components/header"
 
 import PageTwo from "../../components/pageTwo"
+
+import PageThree from "../../components/pageThree"
 function Home() {
 
     return(
-        <div className="bg-blue-950 h-screen ">
+        <div className="bg-blue-950 h-screen "> 
             <Header/>
             <main  className=' bg-blue-950 flex justify-center items-top  max-w-full'>
 
@@ -34,6 +36,7 @@ function Home() {
                 </section>
             </main>
             <PageTwo/>
+            <PageThree/>
         </div>
     )
 }
