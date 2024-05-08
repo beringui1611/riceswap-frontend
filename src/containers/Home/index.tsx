@@ -3,6 +3,8 @@ import Header from "../../components/header"
 import PageTwo from "../../components/pageTwo"
 
 import PageThree from "../../components/pageThree"
+
+import PageFour from "../../components/pageFour"
 function Home() {
 
     return(
@@ -37,6 +39,7 @@ function Home() {
             </main>
             <PageTwo/>
             <PageThree/>
+            <PageFour/>
         </div>
     )
 }
