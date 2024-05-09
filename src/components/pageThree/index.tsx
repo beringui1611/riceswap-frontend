@@ -18,12 +18,12 @@ function PageThree(){
               className="xl:w-1/2  max-sm:hidden"
             />
             </div>
-            <div className=' font-bold text-xl  text-center text-white px-14 xl:text-4xl'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime itaque soluta minima expedita blanditiis laudantium Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa omnis eligendi Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae beatae ab quae eius quis similique amet sed quia est fugit. Dolores est molestias sequi sit repellat ut molestiae aut rem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi inventore voluptate deleniti qui, provident aliquam eum, non asperiores minima aliquid dicta porro officia amet ipsum tenetur eos pariatur est unde.
+            <div className=' font-medium text-xl  text-center text-white px-14 xl:text-3xl'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime itaque soluta minima expedita blanditiis laudantium Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa omnis eligendi Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae beatae ab quae eius quis similique amet sed quia est fugit. Dolores est molestias sequi
             </div>
 
             <div className="flex justify-center mt-9">
-            <a href="#" className="font-bold  text-center justify-center  shadow-md shadow-black text-white  bg-gray-700 px-3 py-1 rounded-md mb-16 xl:w-90 xl:h-20 xl:text-3xl xl:py-5 " //futuramente adicionar animações de HOVER,ETC.
+            <a href="#" className="font-bold  text-center justify-center  shadow-md shadow-black text-white  bg-gray-700 px-3 py-1 rounded-md mb-16 xl:w-62 xl:text-xl xl:py-5 " //futuramente adicionar animações de HOVER,ETC.
               >Learn More</a>
           </div>
         </section>

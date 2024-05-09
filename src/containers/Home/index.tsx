@@ -5,6 +5,9 @@ import PageTwo from "../../components/pageTwo"
 import PageThree from "../../components/pageThree"
 
 import PageFour from "../../components/pageFour"
+
+import PageFive from "../../components/pageFive"
+
 function Home() {
 
     return(
@@ -40,6 +43,7 @@ function Home() {
             <PageTwo/>
             <PageThree/>
             <PageFour/>
+            <PageFive/>
         </div>
     )
 }

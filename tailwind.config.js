@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -13,7 +14,8 @@ module.exports = {
         
       },
       backgroundImage:{
-        'sushiSnow': 'url(/src/assets/img/snowSushi.svg)'
+        'sushiSnow': 'url(/src/assets/img/snowSushi.svg)',
+        'samurai': "url('/src/assets/img/samurai.svg')"
       }
         
     },
