@@ -18,7 +18,7 @@ function PageThree(){
               className="xl:w-1/2  max-sm:hidden"
             />
             </div>
-            <div className=' font-medium text-xl  text-center text-white px-14 xl:text-3xl'>
+            <div className=' font-medium text-sm  text-center text-white px-14 xl:text-3xl'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime itaque soluta minima expedita blanditiis laudantium Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa omnis eligendi Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae beatae ab quae eius quis similique amet sed quia est fugit. Dolores est molestias sequi
             </div>
 

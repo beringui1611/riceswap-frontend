@@ -11,6 +11,7 @@ module.exports = {
       },
       colors: {
         primaryBg: '#101B40',
+        colorButton: '#D9D9D95E'
         
       },
       backgroundImage:{

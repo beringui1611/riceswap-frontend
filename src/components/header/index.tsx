@@ -3,8 +3,6 @@ import Arrow from '../../assets/icons/arrow.png';
 import Close from '../../assets/icons/close.png';
 
 import { useEffect, useState } from 'react';
-import { title } from 'process';
-import { text } from 'stream/consumers';
 
 function Header() {
 
