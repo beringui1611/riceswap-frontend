@@ -33,13 +33,21 @@ function PageFive(){
                     <h1 className='font-bold m-2'>Sushi Academy</h1>
                     <p className='mb-5'>Demystisfying DeFi - everything you need to know in one place. For beginners to advanced users, and everyone in between.</p>
 
-                    <a href="" className='bg-white text-black text-opacity-45  rounded-md text-sm  font-medium p-2 '>Visit App</a> 
+                    <a href="" className='bg-white text-black text-opacity-45  rounded-md text-sm  font-medium p-2 '>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+</svg>
+                        Visit App</a> 
                     
                 </div>
                     <div className='text-white'>
                         <h1 className='font-bold'>Contact Support</h1>
                         <p className=''>Join the Sushi Discord community and ask away!</p>
                     </div>
+                </div>
+
+                <div>
+
                 </div>
             </div>
         </article>    
