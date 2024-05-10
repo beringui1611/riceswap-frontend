@@ -5,9 +5,9 @@ import Twitter from '../../assets/icons/twitter.svg';
 function Footer(){
 
     return(
-        <section className='bg-blue-950'>
-        
-        <article >
+        <section className='bg-blue-950 h-[100vh] w-full '>
+         
+        <article className='bg-blue-950 h-[100vh] '>
             <div className=' rounded-md h-full border-2 m-5 border-white mt-14'>
 
                 <div className='text-white p-5'>
