@@ -5,14 +5,7 @@ function Farm() {
     return(
     
         <div className="bg-blue-950 h-screen "> 
-<<<<<<< HEAD
-            <Header/>
-=======
             <HeaderApp/>
-            <main  className=' bg-blue-950 flex justify-center items-top  max-w-full'>
-
-            </main>
->>>>>>> 04371c880f2e6569157f98588cd2cd17cb1c2ab4
             
             <section className=' bg-blue-950   max-w-full'>
             <main className="flex justify-center items-top">
@@ -25,23 +18,10 @@ function Farm() {
                 
             </main>
             <main className="bg-farmColor m-4 rounded-xl">
-            <section className="bg-farmColor flex h-full mx-2 mt-10  rounded-xl ">
-                <div className=" bg-inputFarmColor flex items-center justify-center  h-10 text-slate-600 p-10  text-textColor m-2  mx-auto rounded-xl">
-                    <div className="">
-                    <h2>You pay</h2>
-                    <input type="number" placeholder="0" className="bg-inputFarmColor text-textColor"/>
-                    </div>
-                    
-    
-                </div>
-
-                
-            </section>
-
             <section className="bg-farmColor flex h-full mx-2 mt-1 rounded-xl ">
-                <div className=" bg-inputFarmColor flex items-center justify-center  h-10 text-slate-600 p-10  text-textColor m-2  mx-auto rounded-xl">
+                <div className=" bg-inputFarmColor flex items-center justify-center  h-10 text-slate-600 p-10 px-6  text-textColor m-2  mx-auto rounded-xl">
                     <div className="">
-                    <h2>You pay</h2>
+                    <h2>You Pay</h2>
                     <input type="number" placeholder="0" className="bg-inputFarmColor text-textColor"/>
                     </div>
 
@@ -52,8 +32,23 @@ function Farm() {
                     
                 </div>
             </section>
+
+            <section className="bg-farmColor flex h-full mx-2 mt-1 rounded-xl ">
+                <div className=" bg-inputFarmColor flex items-center justify-center  h-10 text-slate-600 p-10 px-6  text-textColor m-2  mx-auto rounded-xl ">
+                    <div className="">
+                    <h2>You Recibe</h2>
+                    <input type="number" placeholder="0" className="bg-inputFarmColor text-textColor"/>
+                    </div>
+
+                    <div className="">
+                        <button>BTC</button>
+                    </div>
+                    
+                    
+                </div>
+            </section>
             <div className="flex">
-            <button className=" px-24 mx-2 bg-buttonFarm font-bold text-sm text-white rounded-md">Ligar carteira</button>
+            <button className=" px-24  bg-buttonFarm font-bold text-sm text-white rounded-md">Ligar carteira</button>
             </div>
             </main>
         </section>
