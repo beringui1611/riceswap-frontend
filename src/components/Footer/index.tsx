@@ -17,7 +17,7 @@ function Footer(){
 
                 <div>
                 <div className='bg-colorButton mx-8 rounded-md h-76 border-2  border-white my-7 p-3 text-white'>
-                    <h1 className='font-bold m-2'>Sushi Academy</h1>
+                    <h1 className='font-bold m-2'>Rice Academy</h1>
                     <p className='mb-5'>Demystisfying DeFi - everything you need to know in one place. For beginners to advanced users, and everyone in between.</p>
 
                     <a href="#1" className='bg-white text-black text-opacity-45  rounded-md text-sm  font-medium p-2 flex justify-center w-32'>

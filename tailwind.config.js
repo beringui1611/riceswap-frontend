@@ -22,6 +22,9 @@ module.exports = {
         'samurai': "url('/src/assets/img/samurai.svg')",
         'samuraiXl': "url('/src/assets/img/samuraiXl.svg')",
         'samurai2Xl': "url('/src/assets/img/samuraiXxl.svg')"
+      },
+      backgroundColor: {
+        bgCustom: 'rgba(0, 0, 0, 0.3)'
       }
         
     },

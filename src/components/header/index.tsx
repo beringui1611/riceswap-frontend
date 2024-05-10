@@ -11,7 +11,7 @@ function Header() {
 
   useEffect(() =>{
     setLinks([
-      {title: "Farm", text:"It is a long established fact that a reader ." },
+      {title: "Farm", text:"It is a long established fact that a reader .", link: "farm"},
       {title: "Pools", text: "There are many variations of passages "},
       {title: "Buy Crypto", text: "If you are going to use a passage of Lorem Ipsum."},
       {title: "Partners", text: "There are many variations of passages of Lorem ."},
@@ -55,7 +55,7 @@ function Header() {
                     xl:bg-opacity-0 xl:hover:bg-transparent
                     ' 
                     key={i.length}>
-                       <a href='#1' className='font-bold xl:text-white xl:hover:text-opacity-20 '>{i.title}</a>
+                       <a href={`/${i.link}`} className='font-bold xl:text-white xl:hover:text-opacity-20 '>{i.title}</a>
                        <p className='text-sm xl:hidden'>{i.text}</p>
                     </article>
                   ))
