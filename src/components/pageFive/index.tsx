@@ -1,28 +1,32 @@
-import samurai from '../../assets/img/samurai.svg'
-function PageFive(){
+import Footer from "../Footer";
+import RedirectArrow from '../../assets/icons/redirect.svg';
 
-    return(
-        <section className='bg-blue-950 h-full'>
-        <article className="bg-blue-950 flex justify-center w-full mx px-8 mb-6">
-            <div className='bg-samurai no-repeat rounded-md mt-10 font-medium '>
-                <div className='text-white px-2 text-opacity-60 mb-5'>
-                    <h1 className='text-xl font-bold mb-2 mt-2'>Lorem ipsum</h1>
-                    <p className='text-sm mb-10 '>dolor sit amet consectetur adipiscing elit vivamus malesuada velklit ssit amet temps porta</p>
+function PageFive() {
 
-                    <a href="" className='bg-white text-black rounded-md text-sm mb-5 opacity-30 p-2 '>Documentation</a>
+    return (
+        <section className="bg-blue-950 h-[165vh]  flex flex-col xl:items-center">
+        <article className="flex justify-center w-full mx px-8 mb-6 ">
+            <div className='bg-samurai bg-no-repeat rounded-md mt-10 font-medium  md:bg-samuraiXl md:bg-no-repeat md:h-[500px] xl:bg-samurai2Xl xl:h-[700px] xl:bg-no-repeat xl:w-[1500px]'>
+                <div className='text-white px-2 text-opacity-80 mb-5'>
+                    <h1 className='text-xl font-bold mb-2 mt-2 md:text-5xl md:p-6'>Lorem ipsum</h1>
+                    <p className='text-sm mb-10 md:text-4xl md:p-6 md:mb-28  '>dolor sit amet consectetur adipiscing elit vivamus malesuada velklit ssit amet temps porta</p>
+
+                    <a href="" className='bg-white text-slate-600 rounded-md text-sm mb-5 opacity-80 p-2  
+                    md:px-20 md:py-4 md:ml-6 md:text-2xl md:font-bold'>
+                    Documentation
+                    </a>
                 </div>
             </div>
             
         </article>
-            <div className='bg-colorButton mx-8 rounded-md h-12 border-2 opacity-75 border-white my-14 text-center  flex items-center justify-center'>
-                <a href=""></a>
+            <div className='bg-colorButton mx-8 rounded-md h-12 border-2 opacity-75 border-white my-14 text-center  flex items-center justify-center xl:w-1/2'>
+                <a href="" className="text-2xl font-bold text-white">Github</a>
             </div>
-            <div className='bg-colorButton mx-8 rounded-md h-12 border-2 opacity-75 border-white  text-center  flex items-center justify-center'>
-                <a href=""></a>
+            <div className='bg-colorButton mx-8 rounded-md h-12 border-2 opacity-75 border-white  text-center  flex items-center justify-center xl:w-1/2 mb-10'>
+                <a href="" className="text-2xl font-bold text-white">NPM</a>
             </div>
-        <article className='bg-blue-950 h-full'>
-            <div className=' bg-blue-950 rounded-md h-full border-2 m-5 border-white mt-14'>
 
+<<<<<<< HEAD
                 <div className='text-white p-5'>
                     <h1 className='font-bold'>Need Help?</h1>
                     <p className=''>If you need help or have any questions, contact us on one of our social channels.</p>
@@ -51,8 +55,11 @@ function PageFive(){
                 </div>
             </div>
         </article>    
+=======
+            <Footer/>
+>>>>>>> 95d9732fce86dcc8f4d43f4301f3f6c8f9821936
         </section>
     )
 }
 
-export default PageFive
+export default PageFive;
