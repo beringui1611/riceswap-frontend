@@ -49,7 +49,7 @@ function Header() {
                   <button className='mb-5' onClick={stateNav}><img className='w-8 absolute right-2 xl:hidden' src={Close} alt='icons'/></button>
                 {
                   links.map((i: any) => (
-                    <article 
+                    <a href={`/${i.link}`}
                     className='
                     mt-8 pl-2  hover:bg-slate-800 hover:bg-opacity-20 hover:rounded-md
                     xl:bg-opacity-0 xl:hover:bg-transparent
@@ -57,7 +57,7 @@ function Header() {
                     key={i.length}>
                        <a href={`/${i.link}`} className='font-bold xl:text-white xl:hover:text-opacity-20 '>{i.title}</a>
                        <p className='text-sm xl:hidden'>{i.text}</p>
-                    </article>
+                    </a>
                   ))
 
                 }
