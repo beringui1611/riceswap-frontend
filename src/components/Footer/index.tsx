@@ -7,7 +7,7 @@ function Footer(){
     return(
         <section className='bg-blue-950 h-[100vh] w-full '>
          
-        <article className='bg-blue-950 h-[100vh] '>
+        <article className='bg-blue-950  '>
             <div className=' rounded-md h-full border-2 m-5 border-white mt-14'>
 
                 <div className='text-white p-5'>
@@ -35,7 +35,7 @@ function Footer(){
                           <img src={Discord} alt='icon'/>
                            Community on Discord
                         </a>
-                        <a className='flex mt-5 flex-row ml-5 gap-2 items-center text-slate-600 font-bold' href='#1'>
+                        <a className='flex mt-5 flex-row ml-5 gap-2 items-center text-slate-600 font-bold mb-10' href='#1'>
                           <img src={Twitter} alt='icon'/>
                            Follow us on Twitter
                         </a>
