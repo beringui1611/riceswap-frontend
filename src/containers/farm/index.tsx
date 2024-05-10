@@ -18,7 +18,8 @@ function Farm() {
                 
             </main>
             <main className="bg-farmColor m-4 rounded-xl">
-            <section className="bg-farmColor flex h-full mx-2 mt-1 rounded-xl ">
+                
+            <section className="bg-farmColor h-full mx-2  rounded-xl ">
                 <div className=" bg-inputFarmColor flex items-center justify-center  h-10 text-slate-600 p-10 px-6  text-textColor m-2  mx-auto rounded-xl">
                     <div className="">
                     <h2>You Pay</h2>
@@ -33,7 +34,7 @@ function Farm() {
                 </div>
             </section>
 
-            <section className="bg-farmColor flex h-full mx-2 mt-1 rounded-xl ">
+            <section className="bg-farmColor  h-full mx-2 mt-1 rounded-xl justify-items-center ">
                 <div className=" bg-inputFarmColor flex items-center justify-center  h-10 text-slate-600 p-10 px-6  text-textColor m-2  mx-auto rounded-xl ">
                     <div className="">
                     <h2>You Recibe</h2>
@@ -46,10 +47,11 @@ function Farm() {
                     
                     
                 </div>
-            </section>
-            <div className="flex">
-            <button className=" px-24  bg-buttonFarm font-bold text-sm text-white rounded-md">Ligar carteira</button>
+                <div className="">
+            <button className="items-center bg-buttonFarm font-bold text-sm text-white rounded-md">Ligar carteira</button>
             </div>
+            </section>
+            
             </main>
         </section>
         </div>
