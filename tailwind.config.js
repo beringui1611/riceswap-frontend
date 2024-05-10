@@ -16,7 +16,9 @@ module.exports = {
       },
       backgroundImage:{
         'sushiSnow': 'url(/src/assets/img/snowSushi.svg)',
-        'samurai': "url('/src/assets/img/samurai.svg')"
+        'samurai': "url('/src/assets/img/samurai.svg')",
+        'samuraiXl': "url('/src/assets/img/samuraiXl.svg')",
+        'samurai2Xl': "url('/src/assets/img/samuraiXxl.svg')"
       }
         
     },
