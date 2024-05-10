@@ -9,12 +9,14 @@ import ArbitrumIcon from '../../assets/icons/arbitrum.svg';
 import { changeChain } from '../../Test/functions';
 
 import { useEffect, useState } from 'react';
+import ConnectWallet from '../ConnectWallet';
 function HeaderApp() {
 
 
   const[nav, setNav] = useState<boolean>(window.innerWidth >= 1280 ? true : false);
-  const[connect, setConnect] = useState<boolean>();
-
+  const[chain, setChain] = useState<boolean>(false);
+  const[connect, setConnect] = useState<boolean>(false);
+  
   const[links, setLinks] = useState<any>([]);
 
   useEffect(() =>{
@@ -36,8 +38,11 @@ function HeaderApp() {
     setNav(!nav);
   }
 
+  function stateChain() {
+    setChain(!chain);
+  }
+
   function stateConnect() {
-    console.log("funfo")
     setConnect(!connect);
   }
 
@@ -52,6 +57,9 @@ function HeaderApp() {
     }
     else if(result === "avalanche"){
         return AvalancheIcon;
+    }
+    else {
+        return EthereumIcon;
     }
   }
 
@@ -93,13 +101,13 @@ function HeaderApp() {
                 </div>
               }
             <div className='flex items-center gap-2 justify-center z-10'>
-                <button onClick={stateConnect} className='flex  items-center justify-center bg-slate-800 w-10 h-9 rounded-md'>
+                <button onClick={stateChain} className='flex  items-center justify-center bg-slate-800 w-10 h-9 rounded-md'>
                     <img src={
                        getChain()
                     } alt='icon'/>
                 </button>
                 {
-                    connect && 
+                    chain && 
                     (
                 <div className='absolute h-auto w-40  top-14 bg-bgCustom flex flex-col items-center py-5 gap-10 rounded-xl'>
                     <button onClick={() => changeChain("ethereum")} className='flex gap-2 font-medium text-white items-center hover:bg-slate-800 p-2 rounded-lg'>
@@ -125,7 +133,12 @@ function HeaderApp() {
                 </div>
                 )
                 }
-                <button className='text-white bg-slate-800 w-24  h-9 rounded-md text-sm font-medium'>Connect</button>
+                <button onClick={stateConnect} className='text-white bg-slate-800 w-24  h-9 rounded-md text-sm font-medium'>Connect</button>
+                {
+                    connect &&
+                    
+                    <ConnectWallet/>
+                }
             </div>
         </div>
 

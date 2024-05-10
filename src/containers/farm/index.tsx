@@ -5,14 +5,7 @@ function Farm() {
     return(
     
         <div className="bg-blue-950 h-screen "> 
-<<<<<<< HEAD
-            <Header/>
-=======
             <HeaderApp/>
-            <main  className=' bg-blue-950 flex justify-center items-top  max-w-full'>
-
-            </main>
->>>>>>> 04371c880f2e6569157f98588cd2cd17cb1c2ab4
             
             <section className=' bg-blue-950   max-w-full'>
             <main className="flex justify-center items-top">
@@ -21,7 +14,6 @@ function Farm() {
                     <button>Remove</button>
                     <button>PayHolders</button>
                 </div>
-                
                 
             </main>
             <main className="bg-farmColor m-4 rounded-xl">
