@@ -17,13 +17,6 @@ function getProvider() {
   }
 
     return (
-    <div>
-        <div onClick={setState} className="w-screen h-screen absolute bg-black right-0 top-0 bg-transparent">
-
-        </div>
-        {
-            close  
-            &&
         <section className="flex flex-col h-screen w-56 bg-white absolute right-0 top-0 items-center justify-between z-50 rounded-xl">
             <h1 className="font-medium mt-2">
                 Connect a Wallet
@@ -44,8 +37,6 @@ function getProvider() {
             </article>
             <p className="text-[12px] text-center">Donec vestibulum sit amet turpis ac accumsan. Sed dignissim dapibus felis</p>
         </section>
-        }
-    </div>
     )
 }
 

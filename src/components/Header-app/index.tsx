@@ -136,8 +136,13 @@ function HeaderApp() {
                 <button onClick={stateConnect} className='text-white bg-slate-800 w-24  h-9 rounded-md text-sm font-medium'>Connect</button>
                 {
                     connect &&
-                    
-                    <ConnectWallet/>
+                    <div>
+                        <div onClick={stateConnect} className='absolute w-full h-full bg-transparent right-0 top-0'>
+
+                        </div>
+                        <ConnectWallet/>
+                    </div>
+                 
                 }
             </div>
         </div>
