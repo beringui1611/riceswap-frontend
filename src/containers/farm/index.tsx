@@ -1,13 +1,14 @@
+import Footer from "../../components/Footer"
 import HeaderApp from "../../components/Header-app"
 
 function Farm() {
 
     return(
     
-        <div className="bg-blue-950 h-screen "> 
+        <div className="bg-blue-950 h-screen flex flex-col gap-10"> 
             <HeaderApp/>
             
-            <section className=' bg-blue-950   max-w-full'>
+            <section className=' bg-blue-950   max-w-full '>
                 
             <main className="flex justify-center items-top">
                 <div className="flex items-center justify-center text-white font-medium gap-4 bg-black bg-opacity-70 p-2 px-6 mt-10 rounded-xl md:gap-20 md:px-10 md:font-bold md:text-xm lg:gap-sm lg:mt-20 lg:text-xm">
@@ -34,7 +35,7 @@ function Farm() {
                 </div>
             </section>
 
-            <section className="bg-farmColor  h-full mx-2 mt-1 rounded-xl justify-items-center  ">
+            <section className="bg-farmColor  h-full mx-2 mt-1 rounded-xl justify-items-center">
                 <div className=" bg-inputFarmColor flex items-center justify-center  h-10  p-10 px-6  text-textColor m-2  mx-auto rounded-xl md:justify-around  ">
                     <div className="">
                     <h2>You Recibe</h2>
@@ -54,6 +55,7 @@ function Farm() {
             
             </main>
         </section>
+        <Footer/>
         </div>
 
     )
